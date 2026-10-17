@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1080" viewBox="0 0 1600 1080">
+  <defs>
+    <style>
+      .serif{font-family:Georgia,'Times New Roman',serif;fill:#202124}
+      .label{font-family:Georgia,'Times New Roman',serif;font-weight:700}
+      .body{font-family:Georgia,'Times New Roman',serif;font-size:23px;font-weight:600;fill:#202124}
+    </style>
+  </defs>
+  <rect width="1600" height="1080" fill="#fff"/>
+  <text x="120" y="74" class="serif" font-size="22" font-style="italic" fill="#777">9. SWOT Analysis</text>
+  <text x="120" y="130" class="serif" font-size="31" font-style="italic" fill="#8b8b8b">Complete one SWOT for your organization, then duplicate the grid for each competitor.</text>
+  <text x="120" y="194" class="label" font-size="34" fill="#397db7">SWOT:</text>
+  <text x="240" y="194" class="label" font-size="34">FoodSave</text>
+
+  <!-- column headers -->
+  <rect x="290" y="224" width="620" height="70" fill="#69df39"/>
+  <rect x="910" y="224" width="620" height="70" fill="#f5232a"/>
+  <text x="600" y="257" text-anchor="middle" class="label" font-size="24">Helpful</text>
+  <text x="600" y="281" text-anchor="middle" class="serif" font-size="16">to achieving the objective</text>
+  <text x="1220" y="257" text-anchor="middle" class="label" font-size="24">Harmful</text>
+  <text x="1220" y="281" text-anchor="middle" class="serif" font-size="16">to achieving the objective</text>
+
+  <!-- row headers -->
+  <rect x="120" y="294" width="80" height="370" fill="#f5e84b"/>
+  <rect x="200" y="294" width="90" height="370" fill="#dbe844"/>
+  <rect x="120" y="664" width="80" height="370" fill="#6ca5d9"/>
+  <rect x="200" y="664" width="90" height="370" fill="#8ec6a2"/>
+  <g transform="translate(160 479) rotate(-90)">
+    <text text-anchor="middle" class="label" font-size="23">Internal origin</text>
+    <text y="23" text-anchor="middle" class="serif" font-size="15">(attributes of the organization)</text>
+  </g>
+  <g transform="translate(160 849) rotate(-90)">
+    <text text-anchor="middle" class="label" font-size="23">External origin</text>
+    <text y="23" text-anchor="middle" class="serif" font-size="15">(attributes of the environment)</text>
+  </g>
+
+  <!-- matrix cells -->
+  <rect x="290" y="294" width="620" height="370" fill="#d1e54b"/>
+  <rect x="910" y="294" width="620" height="370" fill="#f5a23e"/>
+  <rect x="290" y="664" width="620" height="370" fill="#7fba99"/>
+  <rect x="910" y="664" width="620" height="370" fill="#a67e9b"/>
+  <g fill="#fff" opacity=".52" font-family="Georgia,'Times New Roman',serif" font-size="190" font-weight="700" text-anchor="middle">
+    <text x="600" y="450">S</text><text x="1220" y="450">W</text>
+    <text x="600" y="820">O</text><text x="1220" y="820">T</text>
+  </g>
+  <g class="label" font-size="27" text-anchor="middle">
+    <text x="600" y="430">Strengths</text><text x="1220" y="430">Weaknesses</text>
+    <text x="600" y="800">Opportunities</text><text x="1220" y="800">Threats</text>
+  </g>
+  <!-- strengths -->
+  <g class="body">
+    <text x="332" y="490"><tspan>• Affordable surplus meals with proposed</tspan><tspan x="356" dy="32">discounts of 40–60%.</tspan></text>
+    <text x="332" y="550"><tspan>• Planned allergy preferences, surprise</tspan><tspan x="356" dy="32">boxes, and delivery options.</tspan></text>
+    <text x="332" y="610"><tspan>• Strong sustainability mission focused on</tspan><tspan x="356" dy="32">reducing food waste.</tspan></text>
+    <!-- weaknesses -->
+    <text x="952" y="490"><tspan>• New business with limited brand</tspan><tspan x="976" dy="32">awareness.</tspan></text>
+    <text x="952" y="550"><tspan>• Limited restaurant partnerships and</tspan><tspan x="976" dy="32">customer base.</tspan></text>
+    <text x="952" y="610">• High initial operating and delivery costs.</text>
+    <!-- opportunities -->
+    <text x="332" y="860"><tspan>• Growing demand for affordable and</tspan><tspan x="356" dy="32">sustainable food in the UAE.</tspan></text>
+    <text x="332" y="920"><tspan>• Potential partnerships with universities,</tspan><tspan x="356" dy="32">restaurants, and cafés.</tspan></text>
+    <text x="332" y="980"><tspan>• Opportunities to expand services across</tspan><tspan x="356" dy="32">the UAE.</tspan></text>
+    <!-- threats -->
+    <text x="952" y="860"><tspan>• Strong competition from established</tspan><tspan x="976" dy="32">food-rescue platforms.</tspan></text>
+    <text x="952" y="920"><tspan>• Food safety concerns and potential allergy</tspan><tspan x="976" dy="32">risks.</tspan></text>
+    <text x="952" y="980"><tspan>• Unpredictable food availability and</tspan><tspan x="976" dy="32">increasing delivery costs.</tspan></text>
+  </g>
+  <rect x="290" y="294" width="1240" height="740" fill="none" stroke="#9b9b9b" stroke-width="2"/>
+  <path d="M910 294v740M290 664h1240" stroke="#9b9b9b" stroke-width="2"/>
+</svg>
